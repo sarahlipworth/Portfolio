@@ -1,76 +1,78 @@
-html{
-  background-color:#34363C
-}
-header{
-  font-family:American Typewriter,Skia;
-  Font-size:100px;
-  color:#f7d1d7;  
-}
-div#navbar { 
-height: 50px; 
-width: 100%; 
-border-top: solid #000 1px; 
-border-bottom: solid #000 1px; 
-background-color: #8affc7; 
-} 
-
-div#navbar ul { 
-margin: 0px; 
-padding: 10px; 
-font-family: Skia; 
-font-size: large; 
-color: 34363c; 
-line-height: 30px; 
-white-space: nowrap; 
-} 
-
-div#navbar li { 
-list-style-type: none; 
-display: inline; 
-} 
-
-div#navbar li a { 
-text-decoration: none; 
-padding: 7px 10px; 
-color: #34363c; 
-} 
-
-div#navbar li a:link { 
-color: #34363c: 
-} 
-
-div#navbar li a:visited { 
-color: #34363c; 
-} 
-
-div#navbar li a:hover { 
-font-weight: bold; 
-color: #34363c; 
-background-color: #f7d1d7; 
-} 
-.Sarah{
-position:absolute;
-left:90px;
-top:90px;
-}
-p{
-font-family:American Typewriter;
-Font-size:large;
-color:#f7d1d7;
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
 }
 
-.contact{
-  background-color:#34363C;
+.skin-wrapper {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 1rem;
+  header {
+    text-align: center;
+    font-family:tahoma;
+    nav {
+      display: inline-block;
+      margin: 0;
+      margin-bottom: 4rem;
+      a {
+        display: inline-block;
+        padding: 0.5rem 1rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        font-weight: 700;
+        letter-spacing: 0.05rem;
+        transition: all 120ms ease-in;
+      }
+    }
+    h1 {
+      margin: 0;
+      font-size: 3rem;
+      font-family: American Typewriter;
+      font-weight: 300;
+    }
+    p {
+      margin: 0;
+      margin-bottom: 6rem;
+      font-weight: 300;
+    }
+  }
+  hr {
+    border: 0;
+    border-top: 2px solid #ddd;
+  }
+  h2 {
+    margin: 2rem 0 0;
+    font-family: Tahoma, serif;
+    font-size: 1.7rem;
+  }
+  time {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 0.9rem;
+  }
 }
-h{
-  font-family:American Typewriter, Skia;
-  Font-size:100px;
-  color:#f7d1d7;
-  
+
+.skin.white {
+  background: white;
+  color: #555;
+  header > p {
+    color: #999;
+  }
+  header > nav a {
+    color: #aaa;
+    &:hover {
+      background: #eee;
+      color: #555;
+    }
+  }
+  hr {
+    border-color: #ddd;
+  }
+  time {
+    color: #999;
+  }
 }
-ul{
-  font-family:skia;
-  color: #00ff7f;
-  padding:10px
-}
+
+
     
