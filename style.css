@@ -2,7 +2,6 @@ body {
   font-family: 'Roboto', sans-serif;
   line-height: 1.6;
 }
-
 .skin-wrapper {
   max-width: 40rem;
   margin: 0 auto;
@@ -10,11 +9,12 @@ body {
   header {
     text-align: center;
     font-family:tahoma;
-    nav {
+ nav {
       display: inline-block;
       margin: 0;
       margin-bottom: 4rem;
-      a {
+ }
+  a {
         display: inline-block;
         padding: 0.5rem 1rem;
         text-decoration: none;
@@ -22,9 +22,8 @@ body {
         font-size: 0.8rem;
         font-weight: 700;
         letter-spacing: 0.05rem;
-        transition: all 120ms ease-in;
-      }
-    }
+        transition: all 120ms 
+ }
     h1 {
       margin: 0;
       font-size: 3rem;
@@ -36,7 +35,6 @@ body {
       margin-bottom: 6rem;
       font-weight: 300;
     }
-  }
   hr {
     border: 0;
     border-top: 2px solid #ddd;
@@ -51,8 +49,6 @@ body {
     font-weight: 300;
     font-size: 0.9rem;
   }
-}
-
 .skin.white {
   background: white;
   color: #555;
@@ -65,14 +61,10 @@ body {
       background: #eee;
       color: #555;
     }
-  }
   hr {
     border-color: #ddd;
   }
   time {
     color: #999;
   }
-}
-
-
     
