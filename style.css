@@ -10,7 +10,6 @@ h1{
   color:#58db41;
   padding-top: 320px;
   padding-bottom: 120px;
-  opacity: 0.9;
 }
 #nav{
     font-family: Verdana; 
@@ -38,5 +37,4 @@ a:link, a:visited {
     }
 a:hover, a:active {
     background-color: #58db41;
-    opacity:0.9;
 }
