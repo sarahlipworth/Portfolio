@@ -7,7 +7,7 @@ h1{
   font-family: American Typewriter;
   font-size:100px;
   text-align: center;
-  color:#58db41;
+  color:#9966FF;
   padding-top: 320px;
   padding-bottom: 120px;
 }
@@ -36,5 +36,5 @@ a:link, a:visited {
     border-bottom-right-radius: 12px;
     }
 a:hover, a:active {
-    background-color: #58db41;
+    background-color: #9966FF;
 }
