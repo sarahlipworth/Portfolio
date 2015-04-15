@@ -8,9 +8,9 @@ h1{
   font-size:100px;
   text-align: center;
   color:#c3a6fb;
-  padding-top: 250px;
+  padding-top: 260px;
   padding-bottom: 120px;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 #nav{
     font-family: Verdana; 
@@ -38,5 +38,5 @@ a:link, a:visited {
     }
 a:hover, a:active {
     background-color: #c3a6fb;
-    opacity:0.8;
+    opacity:0.9;
 }
