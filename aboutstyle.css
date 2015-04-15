@@ -14,3 +14,11 @@ font-size:25px;
 color: #9966FF;
 float:right;
 }
+#pic{
+display: block;
+float:left;
+}
+#text{
+display:block;
+float:left;
+}
