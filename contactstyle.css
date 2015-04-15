@@ -1,0 +1,43 @@
+body {
+background-image:  url("http://media.mnn.com/sites/default/files/user/160942/lion.jpg");
+background-size: 100%;
+background-repeat:no-repeat;
+opacity: 0.3
+}
+h1{
+font-family: Century Gothic;
+font-size:100px;
+color:#9966FF;
+}
+ul{
+font-family:Verdana;
+font-size:30px;
+color: #9966FF;
+}
+#nav{
+    font-family: Verdana; 
+    text-align: center;
+    padding:0px;
+    }
+#nav li{
+    float: center;
+    display: inline;
+    }
+a:link, a:visited {
+    display:inline-block;
+    width:225px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #313131;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    style-type: center;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    }
+a:hover, a:active {
+    background-color: #9966FF;
+}
