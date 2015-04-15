@@ -1,5 +1,5 @@
 body {
-background-image:  url("http://www.glitters20.com/quotes/wp-content/uploads/2012/12/Black-And-White-83.jpg");
+background-image:  url("http://media.mnn.com/sites/default/files/user/160942/lion.jpg");
 background-size: 100%;
 background-repeat:no-repeat;
 }
@@ -10,6 +10,7 @@ h1{
   color:#c3a6fb;
   padding-top: 250px;
   padding-bottom: 120px;
+  opacity: 0.6;
 }
 #nav{
     font-family: Verdana; 
@@ -37,4 +38,5 @@ a:link, a:visited {
     }
 a:hover, a:active {
     background-color: #c3a6fb;
+    opacity:0.6;
 }
