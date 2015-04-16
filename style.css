@@ -1,5 +1,5 @@
 body {
-background-image:  url("http://media.mnn.com/sites/default/files/user/160942/lion.jpg");
+background-image:  url("https://secure.static.tumblr.com/55574356817cc445a072ba4d284c38e1/g9z8kem/3fun8imso/tumblr_static_vintage-summer-tumblr-backgrounds.jpg");
 background-size: 100%;
 background-repeat:no-repeat;
 }
@@ -7,7 +7,7 @@ h1{
   font-family: Century Gothic;
   font-size:100px;
   text-align: center;
-  color:#9966FF;
+  color:#00FF66;
   padding-top: 320px;
   padding-bottom: 120px;
 }
@@ -36,5 +36,5 @@ a:link, a:visited {
     border-bottom-right-radius: 12px;
     }
 a:hover, a:active {
-    background-color: #9966FF;
+    background-color: #00FF66;
 }
