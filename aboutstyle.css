@@ -1,24 +1,46 @@
-body {
-background-image:  url("http://greenweddingshoes.com/wp-content/uploads/2013/01/african-honeymoon-14.jpg");
-background-size: 100%;
-background-repeat:no-repeat;
+*{
+  background:#DCDCDC
 }
 h1{
-font-family: Century Gothic;
-font-size:100px;
-color:#9966FF;
+   font-family:Century Gothic;
+   font-size:100px;
+   color: #9966FF;
+   text-align:center;
 }
-p{
-font-family:Verdana;
-font-size:25px;
-color: #9966FF;
-float:right;
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 20px solid #787878;
 }
-#pic{
-display: block;
-float:left;
+h2{
+  color:#9966FF;
+  text-align: center;  
 }
-#text{
-display:block;
-float:left;
+#nav{
+    font-family: Verdana; 
+    text-align: center;
+    padding:0px;
+    }
+#nav li{
+    float: center;
+    display: inline;
+    }
+a:link, a:visited {
+    display:inline-block;
+    width:225px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #313131;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    style-type: center;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    }
+a:hover, a:active {
+    background-color: #9966FF;
 }
