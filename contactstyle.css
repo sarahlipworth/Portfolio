@@ -1,17 +1,17 @@
-body {
-background-image:  url("http://www.mylifesatrip.com/wp-content/uploads/2012/04/20120402-203227.jpg");
-background-size: 100%;
-background-repeat:no-repeat;
+*{
+  background:#FFDAB9
 }
 h1{
 font-family: Century Gothic;
 font-size:100px;
 color:#9966FF;
+text-align: center;
 }
 p{
-font-family:Verdana;
+font-family: Arial;
 font-size:25px;
-color: #9966FF;
+color: #FF7216;
+text-align: center;
 }
 #nav{
     font-family: Verdana; 
