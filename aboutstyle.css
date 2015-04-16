@@ -6,6 +6,7 @@ h1{
    font-size:100px;
    color: #9966FF;
    text-align:center;
+   border: 5px solid #FF7F24
 }
 img{
     display: block;

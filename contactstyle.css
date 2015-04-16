@@ -6,11 +6,12 @@ font-family: Century Gothic;
 font-size:100px;
 color:#9966FF;
 text-align: center;
+border: 5px solid #FF7F24
 }
 p{
 font-family: Arial;
 font-size:25px;
-color: #FF7216;
+color: #9966ff;
 text-align: center;
 }
 #nav{
