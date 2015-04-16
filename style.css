@@ -7,7 +7,7 @@ h1{
   font-family: Century Gothic;
   font-size:100px;
   text-align: center;
-  color:#FF3D0D;
+  color:#FFB00F;
   padding-top: 320px;
   padding-bottom: 120px;
 }
@@ -36,5 +36,5 @@ a:link, a:visited {
     border-bottom-right-radius: 12px;
     }
 a:hover, a:active {
-    background-color: #FF3D0D;
+    background-color: #FFB00F;
 }
