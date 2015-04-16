@@ -1,5 +1,8 @@
 *{
-  background:#55141C
+  background-image: url("http://24.media.tumblr.com/tumblr_m7h2l2d5UZ1rzcocmo1_1280.jpg");
+  background-size:100%;
+  background-repeat:no-repeat;
+  }
 }
 h1{
    font-family:Century Gothic;
