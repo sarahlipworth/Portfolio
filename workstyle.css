@@ -1,10 +1,42 @@
-body {
-background-image:  url("http://proof.nationalgeographic.com/files/2013/08/MM7947_120219_104128ML.jpg");
-background-size: 100%;
-background-repeat:no-repeat;
+*{
+  background:#FFDAB9
 }
 h1{
 font-family: Century Gothic;
 font-size:100px;
 color:#9966FF;
+text-align: center;
+border: 5px solid #FF7F24
 }
+p{
+font-family: Arial;
+font-size:25px;
+color: #FF7216;
+text-align: center;
+}
+#nav{
+    font-family: Verdana; 
+    text-align: center;
+    padding:90px;
+    }
+#nav li{
+    float: center;
+    display: inline;
+    }
+a:link, a:visited {
+    display:inline-block;
+    width:225px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #313131;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    style-type: center;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    }
+a:hover, a:active {
+    background-color: #9966FF;
